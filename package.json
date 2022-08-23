@@ -12,7 +12,8 @@
     "styled-components": "5.2.1"
   },
   "scripts": {
-    "start": "start-storybook -p 6006 -s public"
+    "start": "start-storybook -p 6006 -s public",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build"
   },
   "eslintConfig": {
     "extends": [
